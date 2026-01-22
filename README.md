@@ -1,2 +1,2 @@
-# First-Login-Page
-Making a simple Login page using Html & Css
+# First-Registartion-Page
+Making a simple Registration page using Html & Css
