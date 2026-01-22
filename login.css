@@ -1,0 +1,159 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+  background-color: rgb(88, 86, 112);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(180, 135, 252);
+}
+
+h1 {
+  color: white;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+}
+
+.one {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 200;
+  margin-left: 0.5rem;
+}
+
+.form {
+  max-width: 1020px;
+  max-height: 650px;
+  background-color: rgb(39, 38, 49);
+  display: flex;
+  border-radius: 16px;
+  justify-content: space-between;
+}
+
+img {
+  max-width: 450px;
+  max-height: 650px;
+  border-radius: 30px;
+  padding: 1rem;
+}
+
+.right {
+  padding: 4rem;
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.input input {
+  background-color: rgb(69, 64, 80);
+  border: none;
+  padding: 1rem;
+  margin: 0.7rem 0.5rem;
+  border-radius: 10px;
+  color: white;
+}
+
+.checkbox {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 200;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.create-account {
+  padding: 1rem 8rem;
+  border-radius: 10px;
+  background-color: rgb(105, 73, 194);
+  color: white;
+  font-weight: 700;
+  border: none;
+}
+
+.create-account:hover {
+  background-color: rgb(121, 84, 223);
+}
+
+.google {
+  padding: 1rem 4rem;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.527);
+  background-color: rgb(39, 38, 49);
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.facebook {
+  padding: 1rem 4rem;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.527);
+  background-color: rgb(39, 38, 49);
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.email_pass {
+  display: flex;
+  flex-direction: column;
+  max-width: 27.5rem;
+}
+
+.checkbox_Create-account {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.register {
+  color: rgba(255, 255, 255, 0.404);
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 200;
+  margin: 1rem;
+}
+
+.others {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.google:hover {
+  background-color: rgb(61, 59, 77);
+}
+
+.facebook:hover {
+  background-color: rgb(61, 59, 77);
+}
